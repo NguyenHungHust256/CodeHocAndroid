@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ba_hung.filebasetraining.ui.activity.MainActivity">
+
+    <TextView
+        android:id="@+id/txtQuanLySinhVien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#047105"
+        android:gravity="center"
+        android:text="Quản Lý Sinh Viên"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnThemLop"
+        android:text="Thêm Lớp"
+        android:onClick="doSomeThing"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnXemDanhSachLop"
+        android:layout_margin="5dp"
+        android:onClick="doSomeThing"
+        android:text="Xem Danh Sách Lớp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnQuanLySinhVien"
+        android:layout_margin="5dp"
+        android:text="Quản Lý Sinh Viên"
+        android:onClick="doSomeThing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

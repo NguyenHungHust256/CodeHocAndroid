@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "941712399254",
+    "firebase_url": "https://findhotel-7816c.firebaseio.com",
+    "project_id": "findhotel-7816c",
+    "storage_bucket": "findhotel-7816c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941712399254:android:76a8026a9ac3cf69",
+        "android_client_info": {
+          "package_name": "com.example.ba_hung.baitaplonhuongdoituong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941712399254-4jukpoopi5rka697j45hua7ivgiutqbb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ba_hung.baitaplonhuongdoituong",
+            "certificate_hash": "535dd81f7a252d6b9c6087295202d6baae70bf43"
+          }
+        },
+        {
+          "client_id": "941712399254-jfd4bej30dnqeol9kv30s2tmcd02saap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN76x4e3NAPukZ5llCvWQpHwy-18WREpA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941712399254-jfd4bej30dnqeol9kv30s2tmcd02saap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

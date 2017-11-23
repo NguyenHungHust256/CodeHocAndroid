@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ConstraintLayout</string>
+    <string name="country_name">Singapore</string>
+    <string name="name">Name : </string>
+    <string name="content_name">Nguyễn Văn A</string>
+    <string name="phone">Phone : </string>
+    <string name="number_contact">0111223344</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="txt_lorem">Trích đoạn chuẩn của Lorem Ipsum được sử dụng từ thế kỉ thứ 16 và được tái bản sau đó cho những người quan tâm đến nó. Đoạn 1.10.32 và 1.10.33 trong cuốn "De Finibus Bonorum et Malorum" của Cicero cũng được tái bản lại theo đúng cấu trúc gốc.</string>
+</resources>

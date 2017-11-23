@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">checkBox</string>
+    <string-array name="phone_type">
+        <item>mobile</item>
+        <item>home</item>
+        <item>other</item>
+        <item>custom</item>
+    </string-array>
+</resources>

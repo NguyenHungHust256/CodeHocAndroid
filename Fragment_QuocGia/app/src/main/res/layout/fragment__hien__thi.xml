@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/fragmentHienThi"
+    android:layout_height="match_parent"
+    tools:context="com.example.ba_hung.fragment_quocgia.ui.fragment.Fragment_Hien_Thi">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtHienThi"
+        android:text="Hien Thi"
+        android:textSize="30sp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

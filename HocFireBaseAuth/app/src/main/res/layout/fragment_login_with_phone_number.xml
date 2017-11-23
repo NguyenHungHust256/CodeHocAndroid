@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mau_da_cam"
+    android:orientation="vertical"
+    tools:context="com.example.ba_hung.hocfirebaseauth.ui.fragment.FragmentLoginWithPhoneNumber">
+
+    <TextView
+        android:id="@+id/txtSDT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Số điện thoại"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etxtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="type your phone Number"
+        android:inputType="phone"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btnSendMeAnSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_dangnhap"
+        android:text="Send SMS To me" />
+
+    <TextView
+        android:id="@+id/txtNhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Nhập vào để xác nhận"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etxtPhoneCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="type your received code"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnSignInPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_dangnhap"
+        android:text="Sign In" />
+
+    <Button
+        android:id="@+id/btnLogOutPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_dangnhap"
+        android:text="Log Out" />
+</LinearLayout>

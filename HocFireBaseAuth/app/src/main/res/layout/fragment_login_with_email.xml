@@ -1,0 +1,131 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/mau_da_cam"
+    tools:context="com.example.ba_hung.hocfirebaseauth.ui.fragment.FragmentLogin">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtNameApp"
+        android:textColor="#673AB7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="55dp"
+        android:text="@string/aoo_demo"
+        android:textSize="50sp"
+        android:shadowColor="#0793b6"
+        android:shadowRadius="2"
+        android:shadowDx="1"
+        android:typeface="serif"
+        android:shadowDy="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintVertical_bias="0.447" />
+
+    <EditText
+        android:id="@+id/edtEmailLogin"
+        android:background="@android:color/transparent"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textPersonName"
+        android:textColorHint="#e2e1e1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        android:layout_marginTop="40dp" />
+
+    <EditText
+        android:id="@+id/edtPassLogin"
+        android:background="@android:color/transparent"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColorHint="#e2e1e1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/edtEmailLogin"
+        app:layout_constraintRight_toRightOf="@+id/edtEmailLogin"
+        app:layout_constraintTop_toBottomOf="@+id/edtEmailLogin" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35" />
+
+    <TextView
+        android:id="@+id/txtForgot"
+        android:layout_width="wrap_content"
+        android:textColor="#212121"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/quenMatKhau"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtSignUp"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/txtSignUp"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/txtSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:textColor="#212121"
+        android:layout_marginRight="16dp"
+        android:text="@string/dangkitaikhoan"
+        android:textSize="18sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/dangnhap"
+        android:background="@drawable/button_dangnhap"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/edtPassLogin"
+        app:layout_constraintRight_toRightOf="@+id/edtPassLogin"
+        app:layout_constraintTop_toBottomOf="@+id/edtPassLogin" />
+
+    <Button
+        android:id="@+id/btnDangXuat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="60dp"
+        android:text="Đăng Xuất"
+        android:background="@drawable/button_dangnhap"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+
+</android.support.constraint.ConstraintLayout>

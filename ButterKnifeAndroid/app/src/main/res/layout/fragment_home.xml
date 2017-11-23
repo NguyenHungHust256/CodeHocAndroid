@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ba_hung.butterknifeandroid.ui.fragment.HomeFragment">
+
+    <TextView
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/txtHello"
+        android:text="Hello Hung Pro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnChange"
+        android:text="Java"
+        android:layout_below="@id/txtHello"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnChangeAndroid"
+        android:text="Android"
+        android:layout_below="@id/btnChange"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnChangeIOS"
+        android:text="IOS"
+        android:layout_below="@id/btnChangeAndroid"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

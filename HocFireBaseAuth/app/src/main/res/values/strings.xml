@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">HocFireBaseAuth</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">893986990748264</string>
+    <string name="facebook_application_id">893986990748264</string>
+    <string name="fb_login_protocol_scheme">fb893986990748264</string>
+    <string name="forgot_pass">Forgot Password</string>
+    <string name="pless_enter">Please enter your Registered Email Id below:</string>
+    <string name="email">Email</string>
+    <string name="submit">submit</string>
+    <string name="aoo_demo">App Demo</string>
+    <string name="password">Password</string>
+    <string name="dangnhap">Đăng nhập</string>
+    <string name="quenMatKhau">Quên mật khẩu?</string>
+    <string name="dangkitaikhoan">Đăng Kí Tài Khoản</string>
+    <string name="or">OR</string>
+    <string name="loginWithFace">Login with facebook</string>
+    <string name="loginWithGoogle">Login with google </string>
+    <string name="dangXuat">Đăng Xuất</string>
+    <string name="name">NAME</string>
+    <string name="nguyenHung">Nguyễn Bá Hùng</string>
+    <string name="templeEmail">example@gmail.com</string>
+    <string name="quayLai">Quay Lại</string>
+    <string name="nhaplai">Repeat Password</string>
+    <string name="dangKy">Đăng Kí</string>
+    <string name="chucMung">Chúc mừng bạn đăng nhập thành công!</string>
+    <string name="xinLoi">Đăng nhập thất bại</string>
+    <string name="back">Back</string>
+    <string name="loginWithEmail">Đăng Nhập Với Email</string>
+    <string name="loginWithSDT">Đăng Nhập Với SĐT</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_login_facebook">ActivityLoginFacebook</string>
+
+</resources>

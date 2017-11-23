@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ba_hung.motsoviewboquachuahoc.ui.fragment.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <CheckBox
+        android:id="@+id/cbMusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Music"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cbFilm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Film"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cbDance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Dance"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rgGioiTinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rbNam"
+            android:text="Nam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/rbNu"
+            android:text="Nữ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ba_hung.tuychinhdialogtrongandroid.MainActivity">
+
+    <Button
+        android:id="@+id/btn1"
+        android:text="@string/btn_hien_thi_alter_dialog_1"
+        android:onClick="hienthiAlertDialog"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn2"
+        android:onClick="hienthiAlertDialog"
+        android:text="@string/btn_hien_thi_alter_dialog_2"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn3"
+        android:onClick="hienthiAlertDialog"
+        android:text="@string/btn_hien_thi_alter_dialog_3"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

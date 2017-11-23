@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    >
+    <include
+        android:id="@+id/tool_bar_about"
+        layout="@layout/tool_bar"
+        />
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@+id/tool_bar_about"
+        android:gravity="center_horizontal"
+        android:id="@+id/text_view"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:text="Đồ Án Phát Triển Ứng Dụng Trên Thiết Bị Di Động.\n\nỨng dụng Find Hotel\n\n\t\tGiáo Viên: Ths. Trần Mạnh Hùng.\n\nNguyễn Ngân Sang - 12520691\nNguyễn Thanh Hải - 12520581"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

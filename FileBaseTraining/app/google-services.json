@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "198944884789",
+    "firebase_url": "https://filebasetraining-81892.firebaseio.com",
+    "project_id": "filebasetraining-81892",
+    "storage_bucket": "filebasetraining-81892.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198944884789:android:0f0119e09e53056f",
+        "android_client_info": {
+          "package_name": "com.example.ba_hung.filebasetraining"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198944884789-6i91u4n2ca2u6ba9nscpsoh2q9hsnc3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEU20nJ25KeJs6nYebFwA2bem4P9zpxUg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

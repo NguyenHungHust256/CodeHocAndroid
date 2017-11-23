@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ba_hung.intentexercise.activity.MainActivity">
+
+    <EditText
+        android:id="@+id/edtName"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:hint="User Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edtAge"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"
+        android:hint="Age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:textSize="24sp"
+        android:onClick="doSomeThing"
+        android:text="Add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnSee"
+        android:text="See"
+        android:onClick="doSomeThing"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

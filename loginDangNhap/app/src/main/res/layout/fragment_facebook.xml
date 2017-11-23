@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/mau_da_cam"
+    android:layout_height="match_parent"
+    tools:context="com.example.ba_hung.logindangnhap25697.ui.fragment.FragmentFacebook">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.facebook.login.widget.ProfilePictureView
+        android:id="@+id/avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/btnLoginFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp" />
+    <Button
+        android:id="@+id/btnLogOut"
+        android:text="Đăng xuất"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtNameFace"
+        android:text="Name"
+        android:textColorHint="@color/white"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtEmailFace"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Email"
+        android:textColorHint="@color/white"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TuyChinhDialogTrongAndroid</string>
+    <string name="btn_hien_thi_alter_dialog_1">Hiển thị dialog 1</string>
+    <string name="btn_hien_thi_alter_dialog_2">Hiển thị dialog 2</string>
+    <string name="btn_hien_thi_alter_dialog_3">Hiển thị dialog 3</string>
+    <string name="tai_khoan"> Tài Khoản</string>
+    <string name="mat_khau"> Mật Khẩu</string>
+</resources>

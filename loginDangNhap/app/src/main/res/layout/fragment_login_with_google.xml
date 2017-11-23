@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/mau_da_cam"
+    android:layout_height="match_parent"
+    tools:context="com.example.ba_hung.logindangnhap25697.ui.fragment.FragmentLoginWithGoogle">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.google.android.gms.common.SignInButton
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/sign_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtUserName"
+        android:text="Nguyen Ba Hung"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtEmail"
+        android:text="example@gmail.com"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/imageAvatar"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_height="150dp" />
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_marginTop="30dp"
+        android:text="Đăng Xuất"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

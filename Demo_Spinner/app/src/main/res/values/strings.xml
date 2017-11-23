@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Demo_Spinner</string>
+    <string-array name="phone_type">
+        <item>Mobile</item>
+        <item>Home</item>
+        <item>Other</item>
+        <item>custom</item>
+    </string-array>
+</resources>

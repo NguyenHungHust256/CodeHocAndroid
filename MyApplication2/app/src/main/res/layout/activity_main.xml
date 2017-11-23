@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ba_hung.myapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/lbfont"
+        android:layout_width="368dp"
+        android:layout_height="38dp"
+        android:background="@android:color/holo_green_light"
+        android:cursorVisible="false"
+        android:gravity="center"
+        android:singleLine="false"
+        android:text="Hello Nguyễn Bá Hùng"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="51dp" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:id="@+id/layout_username"
+            android:layout_marginBottom="15dp"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageview_1"
+                android:src="@drawable/hotel_image"
+                android:scaleType="fitXY"
+                android:layout_marginBottom="10dp"
+                android:layout_centerInParent="true"
+                />
+            <ImageView
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:background="@drawable/custom_button_upload"
+                android:src="@drawable/ic_user"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/imageview_user"
+                android:layout_marginLeft="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:text="UserName"
+                android:layout_margin="20dp"
+                android:id="@+id/textview_username"
+                android:layout_toRightOf="@+id/imageview_user"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="8"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:src="@drawable/ic_marker_hotel"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="List Hotels"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:layout_marginLeft="15dp"
+                    />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+                <ImageButton
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:id="@+id/upload_button"
+                    android:src="@drawable/ic_upload"
+                    android:background="@drawable/custom_button_upload"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+
+                    />
+                </RelativeLayout>
+                </LinearLayout>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/listview_hotel"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:layout_weight="7"
+            android:outlineProvider="none"
+            />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

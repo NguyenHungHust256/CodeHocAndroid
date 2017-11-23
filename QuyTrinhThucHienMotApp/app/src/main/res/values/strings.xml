@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QuyTrinhThucHienMotApp</string>
+    <string name="txt_android">Hello Android</string>
+    <string name="txt_java">Hello Java</string>
+</resources>
