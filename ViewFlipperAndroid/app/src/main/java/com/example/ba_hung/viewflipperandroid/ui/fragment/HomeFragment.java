@@ -57,9 +57,9 @@ public class HomeFragment extends Fragment {
     }
 
     private void loadAnh() {
-        Glide.with(getActivity()).load("http://cms.kienthuc.net.vn/zoom/1000/uploaded/nguyenanhson/2016_05_06/9/bi-chup-len-luc-nho-long-vit-gai-xinh-bat-ngo-noi-tieng-hinh-3.jpg").into(img1);
-        Glide.with(getActivity()).load("https://s1.anh.im/2015/04/10/girl-xinh-gocsex.blogspot92b291.jpg").into(img2);
-        Glide.with(getActivity()).load("http://www.tieuthien.com/wp-content/uploads/2016/10/hot-girl-gai-xinh-facebook-tieuthien.com-5.jpg").into(img3);
+        Glide.with(getActivity()).load(R.drawable.anh1).into(img1);
+        Glide.with(getActivity()).load(R.drawable.img1).into(img2);
+        Glide.with(getActivity()).load(R.drawable.img2).into(img3);
     }
 
     @Override
